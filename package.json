@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "http-server ./bin/www -a localhost -p 8080 -c-1",
     "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
